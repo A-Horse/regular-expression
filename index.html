@@ -3,13 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+
+    <link rel="stylesheet" href="./dist/styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
 
-    <script src=""></script>
+    <main>
+
+      <div class="test-text-input">
+        <textarea></textarea>
+      </div>
+
+      <div class="reg-exp-input">
+        <input type="text" class="reg-exp-input--input"/>
+
+
+      </div>
+
+      <button class="test-button">ok</button>
+
+      <div class="reg-exp-test-result">
+
+      </div>
+
+    </main>
+
+    <script src="./dist/bundle.js"></script>
   </body>
 </html>

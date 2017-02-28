@@ -2,19 +2,27 @@
   "name": "regular-expression",
   "version": "1.0.0",
   "description": "",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --port 6500"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "extract-text-webpack-plugin": "^2.0.0",
     "webpack": "^2.2.1"
   },
   "dependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",
+    "css-loader": "^0.26.2",
     "electron": "^1.4.15",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
     "webpack-dev-server": "^2.4.1"
   }
 }
